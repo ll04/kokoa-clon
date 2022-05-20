@@ -19,3 +19,25 @@ body {
     width: 60%;
     opacity: 0.6;
 }
+
+#login-form {
+    display: flex;
+    flex-direction: column;
+    margin: 0px 50px;
+}
+
+#login-form input {
+    border: none;
+    padding: 15px 0px;
+    font-size: 18px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+    margin-bottom: 20px;
+}
+
+#login-form input::placeholder {
+    color: rgba(0, 0, 0, 0.3);
+}
+
+#login-form input:focus {
+    border-color: rgba(0, 0, 0, 0.4);
+}
